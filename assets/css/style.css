@@ -36,7 +36,10 @@ h3 {
    margin: 0;
 }
 .my-name {
-   color: #fb6656;
+   background-image: linear-gradient(to right,orange, tomato);
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
 }
 
 .my-image img {
@@ -53,6 +56,7 @@ h3 {
    border-radius: 5px;
    text-decoration: none;
    margin-top: 1rem;
+   box-shadow: 0 10px 15px 0px rgba(0, 0, 0, 0.2);
    text-transform: uppercase;
 }
 
@@ -101,11 +105,19 @@ h3 {
 }
 .card-2 {
    border-left: 5px solid;
-   border-image: linear-gradient(blue, cyan) 30;
+   border-image: linear-gradient(blue, cyan) 1;
    border-radius: 5px;
 }
 
 footer {
    text-align: center;
    padding: 3rem 5rem;
+}
+
+.section-title {
+   background-image: linear-gradient(to right,orange, tomato);
+   display: inline-block;
+   background-clip: text;
+   -webkit-background-clip: text;
+   color: transparent;
 }
