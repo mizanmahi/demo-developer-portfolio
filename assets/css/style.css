@@ -1,3 +1,7 @@
+* {
+   padding: 0;
+   margin: 0;
+}
 body {
    font-family: "Lato", sans-serif;
    margin: 0;
@@ -17,11 +21,40 @@ h3 {
    color: orange;
 }
 
+.top-section {
+   background-image: url("../images/top-banner.png");
+   background-repeat: no-repeat;
+}
+
+.nav{
+   display: flex;
+   justify-content: flex-end;
+   padding-top: 2rem;
+   margin-right: 5rem;
+}
+.nav .nav-item{
+   list-style: none;
+}
+.nav .nav-item a{
+   text-decoration: none;
+   color: tomato;
+   border-radius: 5px;
+   font-size: 1.1rem;
+   font-family: inherit;
+   padding: 1rem 1.8rem;
+   transition: all .2s;
+
+}
+.nav .nav-item a:hover{
+   background: tomato;
+   color: #fff;
+
+}
+
 .header-section {
    display: flex;
    padding: 3rem 5rem;
-   background-image: url("../images/top-banner.png");
-   background-repeat: no-repeat;
+  
 }
 
 .half-width {
@@ -94,7 +127,8 @@ h3 {
    margin-left: 2.5%;
    margin-right: 2.5%;
    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
-   padding: 1rem;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
    padding-left: 3rem;
    border-image: linear-gradient(blue, cyan);
    border-radius: 5px;
@@ -121,4 +155,5 @@ footer {
    background-clip: text;
    -webkit-background-clip: text;
    color: transparent;
+   margin-bottom: 1.5rem;
 }
