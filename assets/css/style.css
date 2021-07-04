@@ -1,0 +1,110 @@
+body {
+   font-family: "Lato", sans-serif;
+   margin: 0;
+   line-height: 1.6;
+}
+
+p {
+   color: dimgray;
+}
+
+h2 {
+   font-size: 35px;
+}
+
+h3 {
+   color: orange;
+}
+
+.header-section {
+   display: flex;
+   padding: 3rem 5rem;
+   background-image: url("../images/top-banner.png");
+   background-repeat: no-repeat;
+}
+
+.half-width {
+   width: 50%;
+}
+
+.title {
+   margin-top: 3rem;
+}
+
+.details h1 {
+   font-size: 3rem;
+   margin: 0;
+}
+.my-name {
+   color: #fb6656;
+}
+
+.my-image img {
+   width: 80%;
+   margin-left: 170px;
+}
+
+.link-btn {
+   display: inline-block;
+   color: white;
+   font-weight: 700;
+   padding: 0.8rem 2rem;
+   background-image: linear-gradient(45deg, lightsalmon, tomato);
+   border-radius: 5px;
+   text-decoration: none;
+   margin-top: 1rem;
+   text-transform: uppercase;
+}
+
+/* Dream Big section */
+
+.dream-big-section {
+   display: flex;
+   padding: 3rem 5rem;
+   background-image: url("../images/dream-bg.png");
+   background-repeat: no-repeat;
+   background-position: bottom right;
+}
+
+.dream-big-section .my-image img {
+   margin: 0;
+}
+
+.dream-big-section .content {
+   margin-top: 2rem;
+}
+
+/* Experience section */
+
+.experience-section {
+   padding: 3rem 5rem;
+}
+
+.cards {
+   display: flex;
+}
+
+.card {
+   width: 45%;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+   padding: 1rem;
+   padding-left: 3rem;
+   border-image: linear-gradient(blue, cyan);
+   border-radius: 5px;
+}
+
+.card-1 {
+   border-left: 5px solid;
+   border-image: linear-gradient(orange, tomato) 38;
+}
+.card-2 {
+   border-left: 5px solid;
+   border-image: linear-gradient(blue, cyan) 38;
+}
+
+footer {
+   text-align: center;
+   padding: 3rem 5rem;
+}
